@@ -85,7 +85,7 @@ const Register = () => {
         <button type="submit" className="btn btn-block" disabled={isLoading}>
           {isLoading ? 'loading...' : 'submit'}
         </button>
-        <button
+        {/* <button
           type="button"
           className="btn btn-block btn-hipster"
           disabled={isLoading}
@@ -96,7 +96,7 @@ const Register = () => {
           }
         >
           {isLoading ? 'loading...' : 'demo app'}
-        </button>
+        </button> */}
         <p>
           {values.isMember ? 'Not a member yet?' : 'Already a member?'}
           <button type="button" onClick={toggleMember} className="member-btn">
