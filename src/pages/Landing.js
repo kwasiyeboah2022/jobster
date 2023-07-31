@@ -20,7 +20,7 @@ const Landing = () => {
             charcoal cray cloud bread, taiyaki drinking vinegar solarpunk banh
             mi.
           </p>
-          <Link to="register" className="btn btn-hero">
+          <Link to="/register" className="btn btn-hero">
             Login/Register
           </Link>
         </div>
